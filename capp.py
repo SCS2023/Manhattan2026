@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from datetime import date, datetime
 
-st.set_page_config(page_title="Ev Bütçesi ve Borç Takibi", layout="wide")
+st.set_page_config(page_title="Budget_Planner", layout="wide")
 
 # ─────────────────────────────────────────────────────────────────────────────
 # SABİTLER
@@ -301,7 +301,7 @@ try:
     # ── BAŞLIK ───────────────────────────────────────────────────────────
     bas_sol, bas_sag = st.columns([3, 1])
     with bas_sol:
-        st.title("🏠 Ev Bütçesi ve Borç Takibi")
+        st.title("Budget_Planner")
     with bas_sag:
         st.markdown(
             f"<div style='text-align:right;padding-top:22px;font-size:1.15rem;color:#aaa;'>📅 {tarih_str}</div>",
